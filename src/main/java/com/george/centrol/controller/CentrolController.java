@@ -116,6 +116,7 @@ public class CentrolController {
         return jsonObject.toJSONString();
     }
 
+//    返回年度销售信息
     @GetMapping("/centrol/get_year_info/")
     public String getYearInfo(){
         return selectYearInfo.getYearInfo();
