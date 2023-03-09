@@ -1,7 +1,6 @@
 package com.george.centrol.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
 import com.george.centrol.mapper.CentrolMapper;
 import com.george.centrol.pojo.Centrol;
 import com.george.centrol.pojo.Store;
@@ -107,13 +106,9 @@ public class CentrolController {
     }
 
     @GetMapping("/centrol/map/")
-    public String getMapData(){
+    public List<Store> getMapData(){
         List<Store> stores = getStores.getStores();
-        JSONObject jsonObject = new JSONObject();
-        for(Store t : stores){
-            jsonObject.put(t.getStoName(),t.getCarNum());
-        }
-        return jsonObject.toJSONString();
+        return stores;
     }
 
 //    返回年度销售信息

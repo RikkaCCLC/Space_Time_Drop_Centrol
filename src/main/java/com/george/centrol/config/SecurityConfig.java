@@ -38,7 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .and()
                 .authorizeRequests()
-                .antMatchers("/centrol/login/token/", "/test/","/centrol/legal_token/").permitAll()
+                .antMatchers("/centrol/login/token/","/centrol/legal_token/").permitAll()
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
                 .anyRequest().authenticated();
 

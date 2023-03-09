@@ -14,6 +14,10 @@ public class GetStoresImpl implements GetStores {
     private StoreMapper storeMapper;
     @Override
     public List<Store> getStores() {
-        return storeMapper.selectList(null);
+        List<Store> list = storeMapper.selectList(null);
+        for(Store t : list){
+            t.setPassword("none");
+        }
+        return list;
     }
 }
