@@ -16,7 +16,7 @@ public class Store {
     @TableField(value="stoname")
     private String stoName;
     @TableField(value="stoaddr")
-    private String sioAddr;
+    private String stoAddr;
     @TableField(value="carnum")
     private Integer carNum;
     @TableField(value="username")
