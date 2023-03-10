@@ -39,6 +39,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers("/centrol/login/token/","/centrol/legal_token/").permitAll()
+                .antMatchers("/centrol/update_sale_data/","/centrol/up/salenum/","/centrol/down/salenum/").hasIpAddress("127.0.0.1")
                 .antMatchers(HttpMethod.OPTIONS).permitAll()
                 .anyRequest().authenticated();
 

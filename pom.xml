@@ -11,7 +11,7 @@
     <groupId>com.George</groupId>
     <artifactId>CenTrol</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>CenTrol</name>
     <description>CenTrol</description>
     <properties>
