@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/carsale?serverTimezone=Asia/Shanghai
-    username: asir
-    password: cxyzp
+    url: jdbc:mysql://127.0.0.1:3306/carsale_db?serverTimezone=Asia/Shanghai
+    username: root
+    password: wsad
     type: com.alibaba.druid.pool.DruidDataSource
 
 server:
