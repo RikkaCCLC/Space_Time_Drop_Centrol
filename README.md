@@ -11,3 +11,4 @@
 
 ![image](https://github.com/Mozartto/Space_Time_Drop_Centrol/assets/58902267/e06ae80d-caf5-4cd7-b14c-b0eb6055ccfd)
 
+**本项目未采用任何前端板子，所有代码均为原创，下载了挂服务器上稍微改一下就可以作为新的数据看板，如果有帮助记得点一个star噢~，谢谢！**
