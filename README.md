@@ -5,3 +5,9 @@
 > **项目名字叫时空水滴（老板起的名字）**
 > 
 > **项目采用的是比较常规的Springboot+Vue架构，前后端均为自己编写**
+>
+> **放一个当时在笔记本电脑上拍的demo图：（这个是上线前的测试版图，最终效果调整了排版）**
+>
+
+![image](https://github.com/Mozartto/Space_Time_Drop_Centrol/assets/58902267/e06ae80d-caf5-4cd7-b14c-b0eb6055ccfd)
+
